@@ -22,7 +22,7 @@
 </head>
 	<body <?php body_class(); ?>>
     <div class="all line bg-white">
-        <header>
+        <header class="py-16">
             <div class="center h-full">
                 <div class="flex justify-between items-center w-full h-full">
                     <div class="logo">

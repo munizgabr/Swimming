@@ -1,7 +1,7 @@
 <div class="mb-[305px]">
-    <div class="center banner">
-        <picture>
-            <img src="<?php bloginfo('template_url');?>/src/images/banner-nadador.png" alt="Banner">
+    <div class="w-screen banner">
+        <picture class="w-full">
+            <img class="w-full" src="<?php bloginfo('template_url');?>/src/images/banner-nadador.png" alt="Banner">
         </picture>
     </div>
     <div class="center flex space-x-6 justify-between mx-auto px-4 py-5 card">

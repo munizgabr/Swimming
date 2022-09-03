@@ -9,10 +9,6 @@ body {
     background-repeat: no-repeat;
     height: 4895px;
 }
-header {
-    border: 1px solid red;
-    height: 130px;
-}
 .h1-hide {
     display: none;
 }
@@ -51,7 +47,7 @@ header {
     left: 0;
     right: 0;
     margin: auto;
-    bottom: -160px;
+    bottom: -485px;
 }
 
 /* button */
