@@ -485,11 +485,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 .items-center {
   align-items: center;
 }
+.justify-center {
+  justify-content: center;
+}
 .justify-between {
   justify-content: space-between;
 }
 .justify-around {
   justify-content: space-around;
+}
+.gap-6 {
+  gap: 1.5rem;
+}
+.gap-y-4 {
+  row-gap: 1rem;
 }
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -542,6 +551,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-from: #9333ea;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(147 51 234 / 0));
 }
+.from-yellow-fundo {
+  --tw-gradient-from: #FFB81D;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 184 29 / 0));
+}
 .via-blue-600 {
   --tw-gradient-stops: var(--tw-gradient-from), #2563eb, var(--tw-gradient-to, rgb(37 99 235 / 0));
 }
@@ -556,6 +569,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .to-purple-700 {
   --tw-gradient-to: #7e22ce;
+}
+.to-yellow-yolk {
+  --tw-gradient-to: #ff980d;
 }
 .p-6 {
   padding: 1.5rem;
@@ -578,6 +594,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
+.pl-8 {
+  padding-left: 2rem;
+}
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -586,14 +605,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
 .font-bold {
   font-weight: 700;
 }
 .font-semibold {
   font-weight: 600;
 }
+.font-thin {
+  font-weight: 100;
+}
 .uppercase {
   text-transform: uppercase;
+}
+.leading-\[40px\] {
+  line-height: 40px;
 }
 .text-black {
   --tw-text-opacity: 1;
@@ -733,6 +762,14 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+/* Content events */
+.icon-before:before {
+    content: url(../../src/images/icon-arrow.png);
+    vertical-align: sub;
+    margin-right: 5px;
+    cursor: pointer;
+}
 .hover\:scale-\[1\.05\]:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -741,6 +778,12 @@ body {
 .hover\:shadow-black:hover {
   --tw-shadow-color: #000;
   --tw-shadow: var(--tw-shadow-colored);
+}
+@media (min-width: 1024px) {
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @charset "UTF-8";
