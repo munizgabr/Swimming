@@ -464,6 +464,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-full {
   height: 100%;
 }
+.h-\[600px\] {
+  height: 600px;
+}
 .w-full {
   width: 100%;
 }
@@ -498,11 +501,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
 }
+.space-y-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
 .self-start {
   align-self: flex-start;
 }
 .self-end {
   align-self: flex-end;
+}
+.self-center {
+  align-self: center;
 }
 .bg-white {
   --tw-bg-opacity: 1;
@@ -551,6 +562,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .p-8 {
   padding: 2rem;
+}
+.p-4 {
+  padding: 1rem;
 }
 .py-16 {
   padding-top: 4rem;
