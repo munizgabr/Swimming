@@ -68,3 +68,11 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+/* Content events */
+.icon-before:before {
+    content: url(../../src/images/icon-arrow.png);
+    vertical-align: sub;
+    margin-right: 5px;
+    cursor: pointer;
+}

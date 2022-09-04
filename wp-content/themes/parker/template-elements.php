@@ -20,7 +20,7 @@ get_header();?>
 					'banner',
 					'blog',
 					'know-more',
-					'events',
+					'events'
 					]);
 				endwhile;
 				else :
