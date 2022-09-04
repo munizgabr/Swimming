@@ -19,6 +19,7 @@ get_header();?>
 					}, [
 					'banner',
 					'blog',
+					'know-more',
 					]);
 				endwhile;
 				else :

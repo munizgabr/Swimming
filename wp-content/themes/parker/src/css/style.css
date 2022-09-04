@@ -36,7 +36,12 @@ body {
 .rmm {
     @apply h-full;
 }
-
+.title {
+    @apply text-white font-bold text-4xl;
+}
+.content {
+    @apply text-white font-semibold text-lg;
+}
 /* Banner */
 
 .banner {
@@ -53,4 +58,13 @@ body {
 /* button */
 .btn {
     @apply text-white font-bold px-6 py-3 bg-gradient-to-r from-yellow-600 via-yellow-700 to-red-500 rounded-none text-white hover:bg-gradient-to-l hover:from-yellow-600 hover:via-yellow-700 hover:to-red-500 hover:scale-110;
+}
+.btn-know-more {
+    @apply bg-white text-black font-bold px-6 py-3 rounded-none hover:bg-slate-300 hover:scale-110;
+}
+/* Content Know More */
+.bg-know-more {
+    background-image: url(http://localhost/swimmers/wp-content/themes/parker/src/images/bg-know-more.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
