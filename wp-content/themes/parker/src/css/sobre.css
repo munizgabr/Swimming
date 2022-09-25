@@ -1,0 +1,633 @@
+
+.upper {
+    text-transform: uppercase;
+}
+
+.solidarity {
+    height: 615px;
+}
+
+.mission {
+    display: inline-block;
+    width: 49.4%;
+}
+
+.vision {
+    display: inline-block;
+    ;
+    width: 51.3%;
+}
+
+.informations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 40px;
+}
+
+.informations-right {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 0;
+}
+
+.informations .images {
+    display: inline-block;
+    width: 100%;
+}
+
+.informations .infos {
+    display: inline-block;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.informations h2 {
+    color: #9d0a0e;
+    width: 45%;
+    letter-spacing: -2px;
+    font-size: 3.8em;
+    font-family: 'Gotham-Thin';
+    line-height: 55px;
+    padding-left: 18px;
+    margin: 38px 0 0px 0;
+}
+
+.informations .description {
+    color: #939598;
+    font-family: 'Ubuntu';
+}
+
+.informations .description {
+    line-height: 1.7;
+    font-size: 0.86em;
+    padding-left: 3.6%;
+}
+
+.informations .identification {
+    padding-top: 22px;
+}
+
+.informations .story {
+    padding-top: 13%;
+}
+
+.informations .governance {
+    padding-top: 17.4%;
+    padding-left: 7%;
+}
+
+.informations .our-founder {
+    padding-top: 9%;
+    padding-left: 7%;
+}
+
+.top-image {
+    border: 21px solid #D51E23;
+    margin: 0 auto;
+    display: block;
+    width: 498px;
+    margin-top: 65px;
+}
+
+.bottom-images img {
+    margin-right: 16px;
+    margin-left: 16px;
+    border: 21px solid #D51E23;
+    width: 235px;
+}
+
+.bottom-images {
+    justify-content: center;
+    margin: 0 auto;
+    width: 488px;
+    display: flex;
+    padding-top: 15px;
+    gap: 10px;
+}
+
+
+/* MISSION/VISION */
+
+.mission-vision {
+    padding-bottom: 96px;
+    display: flex;
+    background: linear-gradient(90deg, #9D0A0E 50%, #D51E23 50%);
+}
+
+.mission-vision p,
+.informations p {
+    font-family: 'Ubuntu';
+    line-height: 20px;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.mission .content {
+    padding-bottom: 25px;
+    width: 86%;
+    padding-left: 53%;
+}
+
+.mission-vision h2 {
+    color: #f1f2f2;
+    font-family: 'Gotham-Thin';
+    margin-top: 14.6%;
+    font-size: 2.5em;
+}
+
+.mission-vision p {
+    font-size: 1em;
+    line-height: 1.4;
+    margin-top: 2%;
+    color: #ffffff;
+    display: block;
+    padding: 0;
+}
+
+.mission h2 {
+    margin-top: 14.9%;
+}
+
+.vision h2 {
+    margin-top: 14.4%;
+}
+
+.vision .content {
+    padding-bottom: 25px;
+    width: 37%;
+    padding-left: 4.2%;
+}
+
+
+/* UNITS */
+
+.background-units {
+    background-color: #E6E7E9;
+}
+
+.units {
+    padding: 80px 15px;
+    grid-template-columns: 3fr 3fr 2fr;
+    display: grid;
+    margin: 0 auto;
+}
+
+.units h2 {
+    padding-top: 3%;
+    line-height: 1.07;
+    word-break: break-all;
+    font-family: 'Gotham-Thin';
+    font-size: 3.6em;
+    width: 47%;
+    color: #9d0a0e;
+}
+
+.units img {
+    width: 84%;
+    margin: 0 auto;
+    display: block;
+    border: 23px solid #D51E23;
+}
+
+.units h3 {
+    padding-left: 2%;
+    font-size: 2em;
+    color: #9d0a0e;
+    font-family: 'Gotham-Thin';
+    margin: 0;
+}
+
+.units p {
+    padding: 0 0px 0 10px;
+    font-size: 0.9em;
+    color: #939598;
+    font-family: 'Ubuntu';
+    margin-top: 0;
+}
+
+.units .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 4.6%;
+    width: 72%;
+}
+
+.units .btn {
+    background-color: #d51e23;
+    line-height: inherit;
+    margin: 0;
+    display: inline;
+    padding: 10px;
+    width: 115px;
+}
+.units .btn:hover{
+    text-decoration: none;
+    background-color: #d83d42;
+    transform: scale(1.02);
+}
+
+.widget .wp-block-search__button {
+    display: block;
+    width: 110px;
+    color: #FFF;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: 'Gotham-Bold';
+    font-size: 0.74em;
+    background-color: #D51D23;
+    height: 32px;
+    padding-top: 10px;
+}
+
+.our-projects {
+    height: 863px;
+}
+
+
+/* CONTACT US */
+
+.contact-us {
+    padding-top: 20px;
+    background-color: #FBFBFB;
+}
+
+.contact-us .btn {
+    position: absolute;
+    background-color: #9D0A0E;
+}
+/* .contact-us .center span {
+    display: inline-block;
+    color: #9d0a0e;
+    font-family: 'Gotham-Thin';
+    font-size: 3.4em;
+    width: 0;
+    padding-right: 287px;
+    letter-spacing: 1.7px;
+    line-height: 1.08;
+} */
+.widget ul, .site-inner-info ul{
+    list-style: unset;
+    font-family:unset;
+    letter-spacing:unset;
+    line-height:unset;
+    color:unset;
+}
+.widget h2, .widget h3 {
+    color: #97989C;
+    font-family: 'Gotham-Bold';
+    font-size: 14px;
+    line-height: unset;
+}
+
+.form {
+    display: inline-block;
+}
+
+.form input,
+.form textarea,
+.widget input[type="text"],
+.widget input[type="email"],
+.widget input[type="tel"],
+.widget input[type="url"],
+.widget input[type="date"],
+.widget input[type="number"],
+.widget input[type="reset"],
+.widget input[type="search"],
+.widget input[type="password"] {
+    font-family: 'Ubuntu';
+    border: none;
+    font-size: 1.2em;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 4px;
+    width: 80%;
+    max-width: 360px;
+    margin-top: 14.2px;
+    background-color: #E6E7E8;
+}
+
+.widget .wp-block-calendar {
+    width: fit-content;
+}
+
+.widget .wp-block-search__input {
+    flex-grow: 0;
+}
+
+.widget input[type="text"],
+.widget input[type="email"],
+.widget input[type="tel"],
+.widget input[type="url"],
+.widget input[type="date"],
+.widget input[type="number"],
+.widget input[type="reset"],
+.widget input[type="password"],
+.widget textarea,
+.widget select {
+    font-size: 1.2em;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 44px;
+    margin-top: 12px;
+    background-color: #E6E7E8;
+}
+
+.form input {
+    height: 45px;
+}
+
+.form textarea {
+    resize: none;
+    padding-top: 10px;
+    height: 124px;
+}
+@media screen and (max-width: 1280px) {
+    .informations h2{
+        width: 100%;
+        margin: 38px 0 20px 0;
+    }
+    .informations .description{
+        padding-left: 15px;
+    }
+    .bottom-images{
+        padding-top: 12px;
+    }
+    .projects .projects-content{
+        padding: 30px 30px;
+    }
+    .units{
+        padding: 80px 0;
+    }
+    .contact-us .center{
+        padding: 25px 30px;
+        grid-column-gap: 125px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .mission-vision {
+        background: none;
+        padding-bottom: 0px;
+    }
+    .mission {
+        width: 100%;
+        background-color: #9D0A0E;
+    }
+    .mission .content {
+        margin: 0 auto;
+    }
+    .vision {
+        width: 100%;
+        background-color: #D51E23;
+    }
+    .vision .content {
+        margin: 0 auto;
+    }
+    .mission .content {
+        margin: 0 auto;
+        width: 37%;
+        padding-left: 4.2%;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .widget input {
+        width: auto;
+    }
+    .informations .identification,
+    .informations .story,
+    .informations .governance,
+    .informations .our-founder {
+        padding-top: 4.9%;
+    }
+    .informations .images {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .center {
+        width: 100%;
+    }
+    .units h2 {
+        display: none;
+    }
+    .informations {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+    .informations .infos {
+        order: 1;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    .informations h2{
+        width: 95%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .informations p{
+        text-align: justify;
+        padding: 0 15px;
+    }
+    .informations .description{
+        padding: 0 20px;
+    }
+    .vision h2{
+        margin-bottom: 0;
+    }
+    .informations .images {
+        order: 2;
+        display: flex;
+        gap: 10px;
+        width: 95%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .informations .identification {
+        padding-top: 0;
+        text-align: justify;
+    }
+    .informations h2{
+        width: 90%;
+        text-align: center;
+    }
+    .informations .top-image {
+        order: 1;
+        width: 33.3%;
+        display: inline-block;
+        margin-top: 0px;
+    }
+    .infos {
+        order: 2;
+    }
+    .mission .content,
+    .vision .content {
+        width: 100%;
+    }
+    .mission-vision p{
+        padding: 0 10px;
+    }
+    .mission h2{
+        padding: 0 10px;
+    }
+    /* CONTACT US */
+    .contact-us .center span {
+        font-size: 1em;
+    }
+    .form {
+        width: 58.5%;
+        padding-top: 0px;
+        margin: 0 auto;
+        display: inherit;
+    }
+    .contact-us .center span {
+        width: 100%;
+        padding: 0;
+        font-size: 2em;
+        display: inherit;
+    }
+    .contact-us .btn {
+        position: initial;
+    }
+    .bottom-images {
+        vertical-align: initial;
+        width: 66.6%;
+        display: flex;
+        gap: 6px;
+        padding-top: 0;
+}
+
+    }
+    .bottom-images img {
+        margin-right: 0px;
+        margin-left: 0px;
+        border: 21px solid #D51E23;
+        width: 50%;
+        display: inline-block;
+    }
+
+
+@media screen and (max-width: 770px) {
+    .mission-vision {
+        display: inherit;
+    }
+    .form input,
+    .form textarea {
+        width: 100%;
+    }
+    .informations h2 {
+        font-size: 2.8em;
+    }
+    /* .units img {
+        width: 300px;
+    } */
+    /* .units .bottom {
+        width: 50%;
+    } */
+    .bottom-images img {
+        border: 10px solid #D51E23;
+    }
+    .top-image {
+        border: 10px solid #D51E23;
+    }
+    .units {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+    }
+    .units .bottom {
+        padding-top: 12px;
+        padding-bottom: 3%;
+    }
+    .units__wrapper{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .contact-us .center span{
+        font-size: 1em;
+    }
+    .wpcf7-not-valid-tip{
+        top: -22px;
+    }
+    .units{
+        flex-direction: column;
+    }
+    .units img {
+        width: 100%;
+    }
+    .informations .images{
+        flex-direction: column;
+    }
+    .bottom-images{
+        width: 100%;
+    }
+    .informations .top-image{
+        width: 100%;
+    }
+    .informations-right{
+        flex-direction: column;
+    }
+    .mission .content, .vision .content{
+        width: 100%;
+        padding: 20px;
+    }
+    .units__wrapper{
+        width: 100%;
+        padding:0 35px;
+    }
+    .units .bottom {
+        padding-top: 37px;
+        width: 100%;
+    }
+    .informations .images {
+        padding: 20px;
+    }
+    .informations .infos{
+        padding: 20px;
+    }
+    .informations h2{
+        font-size: 2.5em;
+    }
+    .informations .description{
+        padding: 0px 10px;
+    }
+    .mission-vision h2{
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .projects .projects-content{
+        padding: 30px;
+    }
+    .contact-us .center .form_title{
+        font-size: 2.6em;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .units__wrapper{
+        padding: 0 25px 25px 25px;
+    }
+    .projects .projects-content{
+        padding: 0;
+    }
+    .informations p{
+        padding: 0;
+    }
+    .informations .images{
+        width: 93%;
+    }
+    .units{
+        padding: 0;
+        gap: 0;
+    }
+    .bottom-images img{
+        width: 49%;
+    }
+}

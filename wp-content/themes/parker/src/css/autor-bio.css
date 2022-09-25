@@ -1,0 +1,93 @@
+body .wrapper-page .author-bio p {
+  margin-bottom: 0;
+}
+body .wrapper-page .author-bio .share {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.info-author-post {
+  font-size: 12px;
+  line-height: 1;
+  color: #D51E23;
+}
+.author-bio {
+  border: 1px solid #D51E23;
+  display: inline-block;
+  width: 100%;
+  background-color: transparent;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.author-bio .icon-pencil {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1em;
+  color: #D51E23;
+}
+.author-bio .icon-pencil:hover {
+  color: #77191d;
+  text-decoration: none;
+  transform: scale(1.02);
+}
+.author-bio ul.share-author {
+  margin-bottom: 0;
+}
+.author-bio ul.share-author li{
+  padding: 5px 3px 5px 0;
+}
+.author-bio .image {
+  width: 100px;
+  float: left;
+}
+.author-bio .image img {
+  border-radius: 100%;
+}
+.author-bio .text {
+  width: calc(100% - 100px);
+  float: left;
+  padding-left: 30px;
+}
+.author-bio .text h5.vcard {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.author-bio .text h5.vcard a {
+  color: #D51E23;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.author-bio .post-author-links li {
+  display: inline-block;
+  border: 1px solid #D51E23;
+  padding: 2px 5px;
+}
+.author-bio .post-author-links li a {
+  font-size: 0.85em;
+}
+.icon-network,
+.icon-facebook,
+.icon-instagram,
+.icon-linkedin,
+.icon-mixi,
+.icon-pinterest,
+.icon-tumblr,
+.icon-twitter,
+.icon-soundcloud,
+.icon-youtube {
+  border: 1px solid #D51E23;
+  padding: 2px 5px;
+}
+@media screen and (max-width: 800px) {
+  .author-bio .image, .author-bio .text {
+    width: 100%;
+    text-align: center;
+  }
+  .author-bio .text {
+    margin-top: 30px;
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,311 @@
+.content-archive {
+    border-right: 1px solid #d51e23;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-right: 25px;
+    position: relative;
+}
+.posts br{
+    display: none;
+}
+.breadcrumb:before{
+    content: url(../images/homeicon.png);
+    vertical-align: initial;
+    margin-right: 2px;
+}
+.date-post i:nth-child(1):before{
+    content: url(../images/calendar.png);
+    vertical-align: initial;
+    margin-right: 2px;
+}
+.breadcrumb{
+    margin-top: 10px;
+    display: block;
+}
+.content {
+    padding: 30px 0px 30px 0px;
+}
+.share-social li a{
+    color: #fff;
+    padding: 5px 8px;
+    font-size: 11px;
+    border: none;
+}
+.share-social li .icon-whatsapp {
+    background-color: #3ABC4C;
+}
+.share-social li .icon-whatsapp:hover {
+    background-color: #2e953c;
+}
+.share-social li .icon-facebook {
+    background-color: #38529A;
+}
+.share-social li .icon-facebook:hover {
+    background-color: #2a3e75;
+}
+.share-social li .icon-linkedin {
+    background-color: #0073B1;
+}
+.share-social li .icon-linkedin:hover {
+    background-color: #00527e;
+}
+
+
+.single h2,
+.single h3,
+.single h4,
+.single h5,
+.single h6 {
+    margin-bottom: 10px;
+    font-family: 'Gotham-Medium';
+    color: #9d0a0e;
+}
+
+.single h1 {
+    color: #9d0a0e;
+    font-family: 'Gotham-Thin';
+    font-size: 3em;
+    margin: 15px 0;
+}
+
+.share li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+.icon-link{
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.group-share {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.content-archive ul li, .content-archive ol li {
+    line-height: 25px;
+}
+
+.content-archive p {
+    font-family: 'Gotham';
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.content-archive ol {
+    margin-left: 20px;
+}
+
+.content-archive td,
+th {
+    border: 1px solid #d51e23;
+    text-align: left;
+    padding: 8px;
+    font-size: 1.15em;
+}
+
+.content-archive th {
+    color: #fff;
+    background-color: #9d0a0e;
+}
+
+.content-archive blockquote p {
+    padding-bottom: 0;
+    line-height: 21px;
+    padding-top: 20px !important;
+}
+
+.content-archive blockquote {
+    font-style: italic;
+    width: 450px;
+    margin: 0.25em 0;
+    padding: 0.25em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #fff;
+    width: 100%;
+}
+
+.content-archive ul, .content-archive ol{
+    margin-bottom: 15px;
+}
+
+.content-archive span, 
+.content-archive a{
+    font-size: 15px;
+}
+
+.content-archive blockquote:before {
+    background-repeat: no-repeat;
+    background-image: url(/wp-content/themes/instituto/src/images/citation.png);
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -5px;
+    top: 30px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .group-share h2,
+    .group-share div {
+        margin: 0 auto;
+    }
+
+    .content-archive {
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #respond form {
+        width: 100%;
+    }
+    .single h2, .single h3, .single h4, .single h5, .single h6{
+        font-size: 1em;
+    }
+    .share-social__wrapper{
+        display: flex;
+    }
+    .center.share-social__wrapper{
+        width: 100%;
+    }
+    .icon-link{
+        font-size: 0.7em;
+    }
+    .share li{
+        padding: 5px;
+    }
+}
+
+/* format-post */
+.format-post {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .format-post p {
+    padding:0 0 20px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .format-post p span {
+    color: #44403c;
+  }
+  .format-post .wp-caption-text {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .format-post #gallery-1 .gallery-item {
+    margin: 0 !important;
+  }
+  .format-post .gallery {
+    margin-bottom: 30px !important;
+  }
+  .format-post ol, .format-post ul {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .format-post ol li, .format-post ul li {
+    color: #44403c;
+  }
+  .format-post ol li span, .format-post ul li span {
+    color: #44403c;
+  }
+  .format-post ol li {
+    list-style: decimal inside;
+  }
+  .format-post ul li {
+    list-style: disc inside;
+  }
+  .format-post h2 {
+    font-size: 1.5em;
+  }
+  .format-post h3 {
+    font-size: 1.4em;
+  }
+  .format-post h4 {
+    font-size: 1.3em;
+  }
+  .format-post h5 {
+    font-size: 1.2em;
+  }
+  .format-post h6 {
+    font-size: 1.1em;
+  }
+  .format-post h2, .format-post h3, .format-post h4, .format-post h5, .format-post h6 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color:  #9d0a0e;;
+    font-weight: bold;
+    font-family: 'Gotham-Bold';
+  }
+  .format-post table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .format-post td, .format-post th {
+    border: 1px solid #333;
+    text-align: left;
+    padding: 8px;
+    color: #44403c;
+  }
+  .format-post tr th {
+    color: #000;
+  }
+  .format-post tr:first-child td {
+    color: #000;
+    background-color: #333;
+  }
+  .format-post tr:nth-child(even) {
+    background-color: transparent;
+  }
+  .format-post blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    width: 450px;
+    margin: 0.25em 0;
+    padding: 0.25em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #000;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-bottom: 30px;
+  }
+  .format-post blockquote p {
+    line-height: 21px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .format-post blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -5px;
+    top: -10px;
+    color: #000;
+  }
+  .format-post blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+  }
+  .format-post blockquote cite:before {
+    content: "\2014 \2009";
+  }
+  @media screen and (max-width: 600px) {
+    body .format-post #gallery-1 .gallery-item {
+      width: 30%;
+    }
+  }
+  

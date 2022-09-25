@@ -1,0 +1,107 @@
+/* Fonts */
+/* remover relative */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100&family=Ubuntu:wght@300;400&display=swap');
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('../../build/fonts/Gotham-Book.eot');
+    src: url('../../build/fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('../../build/fonts/Gotham-Book.woff2') format('woff2'),
+        url('../../build/fonts/Gotham-Book.woff') format('woff'),
+        url('../../build/fonts/Gotham-Book.ttf') format('truetype'),
+        url('../../build/fonts/Gotham-Book.svg#Gotham-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('../../build/fonts/Gotham-Bold.eot');
+    src: url('../../build/fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../build/fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../../build/fonts/Gotham-Bold.woff') format('woff'),
+        url('../../build/fonts/Gotham-Bold.ttf') format('truetype'),
+        url('../../build/fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../build/fonts/Gotham-Light.eot');
+    src: url('../../build/fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../build/fonts/Gotham-Light.woff2') format('woff2'),
+        url('../../build/fonts/Gotham-Light.woff') format('woff'),
+        url('../../build/fonts/Gotham-Light.ttf') format('truetype'),
+        url('../../build/fonts/Gotham-Light.svg#Gotham-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham-Extra';
+    src: url('../../build/fonts/Gotham-ExtraLight.eot');
+    src: url('../../build/fonts/Gotham-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../../build/fonts/Gotham-ExtraLight.woff2') format('woff2'),
+        url('../../build/fonts/Gotham-ExtraLight.woff') format('woff'),
+        url('../../build/fonts/Gotham-ExtraLight.ttf') format('truetype'),
+        url('../../build/fonts/Gotham-ExtraLight.svg#Gotham-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham-Thin';
+    src: url('../../build/fonts/Gotham-Thin.eot');
+    src: url('../../build/fonts/Gotham-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../../build/fonts/Gotham-Thin.woff2') format('woff2'),
+        url('../../build/fonts/Gotham-Thin.woff') format('woff'),
+        url('../../build/fonts/Gotham-Thin.ttf') format('truetype'),
+        url('../../build/fonts/Gotham-Thin.svg#Gotham-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham-Ultra';
+    src: url('../../build/fonts/Gotham-Ultra.eot');
+    src: url('../../build/fonts/Gotham-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('../../build/fonts/Gotham-Ultra.woff2') format('woff2'),
+        url('../../build/fonts/Gotham-Ultra.woff') format('woff'),
+        url('../../build/fonts/Gotham-Ultra.ttf') format('truetype'),
+        url('../../build/fonts/Gotham-Ultra.svg#Gotham-Ultra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('../../build/fonts/Gotham-Black.eot');
+    src: url('../../build/fonts/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+        url('../../build/fonts/Gotham-Black.woff2') format('woff2'),
+        url('../../build/fonts/Gotham-Black.woff') format('woff'),
+        url('../../build/fonts/Gotham-Black.ttf') format('truetype'),
+        url('../../build/fonts/Gotham-Black.svg#Gotham-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('../../build/fonts/Gotham-Medium.eot');
+    src: url('../../build/fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../build/fonts/Gotham-Medium.woff2') format('woff2'),
+        url('../../build/fonts/Gotham-Medium.woff') format('woff'),
+        url('../../build/fonts/Gotham-Medium.ttf') format('truetype'),
+        url('../../build/fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

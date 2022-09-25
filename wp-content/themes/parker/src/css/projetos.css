@@ -1,0 +1,610 @@
+.field{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.wpcf7-not-valid-tip{
+    position: absolute;
+    right: 0;
+    top: -33px;
+    width: unset !important;
+    padding: unset !important; 
+    font-size:12px !important; 
+    display: unset !important;
+}
+.newsletter .wpcf7-submit{
+    margin: 10px 0 0 0;
+}
+.newsletter .wpcf7-not-valid-tip{
+    right: 0;
+    top: -18px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+/* STORY */
+.story {
+    display: grid;
+    grid-template-columns: 10fr 9fr;
+}
+
+.story img {
+    border: 25px solid #D51E23;
+    margin: 85px 0px 65px 70px;
+    width: 80%;
+}
+
+.story h1 {
+    color: #9d0a0e;
+    padding-top: 50px;
+    padding-left: 5px;
+    font-size: 3.3em;
+    font-family: 'Gotham-Thin';
+    width: 82%;
+    letter-spacing: 3.1px;
+    line-height: 1.1;
+}
+
+p {
+    color: #939598;
+    font-size: 0.95em;
+    font-family: 'Ubuntu';
+    padding: 21px 107px 0px 6px;
+    line-height: 1.78;
+}
+
+/* GALLERY */
+.gallery {}
+
+.gallery h2 {
+    color: #9d0a0e;
+    padding-left: 77px;
+    font-size: 2.3em;
+    font-family: 'Gotham-Thin';
+}
+
+.gallery .images {
+    padding: 0px 38px 0px 57px;
+    display: inherit;
+    margin: 0 auto;
+}
+
+.gallery img {
+    margin: 12px;
+    border: 24px solid #D51D23;
+    width: 22%;
+}
+
+/* HOW TO */
+.how-to {
+    padding-bottom: 52px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.how-to .participate {
+    padding: 70px 55px 0px 67px;
+}
+
+.how-to h2 {
+    color: #9d0a0e;
+    line-height: 1.1;
+    font-size: 3.5em;
+    font-family: 'Gotham-Thin';
+    letter-spacing: 1px;
+}
+
+
+.how-to .support {
+    padding: 70px 112px 0px 25px;
+}
+
+/* DATA */
+.data {
+    height: 418px;
+}
+
+/* SUPPORTERS */
+.supporters {
+    display: flex;
+    flex-direction: column;
+    height: 405px;
+}
+
+.supporters .images {
+    padding-top: 32px;
+    margin-bottom: 152px;
+    margin: 0 auto;
+    display: inline-flex;
+    gap: 40px;
+}
+
+.supporters div {
+    display: flex;
+}
+
+.supporters img {
+    max-height: 90px;
+    max-width: 140px;
+    min-width: 90px;
+}
+
+.supporters h2 {
+    padding-top: 98px;
+    margin: 0 auto;
+    color: #9d0a0e;
+    font-size: 1.1em;
+    font-family: 'Gotham-Ultra';
+}
+
+.supporters div {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* DONATION */
+.donation {}
+
+/* CONTACT US */
+
+.contact-us {
+    padding-top: 20px;
+    background-color: #FBFBFB;
+}
+
+.contact-us .btn {
+    position: absolute;
+    background-color: #9D0A0E;
+}
+
+.contact-us .center {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 25px 55px;
+    grid-column-gap: 50px;
+}
+
+
+.form {
+    position: relative;
+    width: 58.5%;
+    padding-top: 43px;
+    padding-left: 82px;
+    vertical-align: top;
+}
+
+.form span {
+    font-family: 'Gotham-Thin';
+    line-height: 0.86;
+    color: #9d0a0e;
+    font-size: 2em;
+    line-height: 112.3%;
+}
+
+.form input,
+.form textarea,
+.wpcf7-select,
+.wpcf7-text,
+.wpcf7-textarea {
+    font-family: 'Ubuntu';
+    border: none;
+    font-size: 16px;
+    padding-left: 15px;
+    outline: none;
+    border-radius: 4px;
+    width: 565px;
+    background-color: #E6E7E8;
+}
+.wpcf7-select{
+    font-size: 16px;
+    padding: 10px;
+    width: auto;
+}
+
+.page-form .wpcf7-text{
+    margin-top: 10px;
+}
+.form input,
+.wpcf7-text {
+    margin-bottom: 15px;
+    height: 45px;
+    font-family: 'Ubuntu';
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+.widget  .site-inner-info .form input, .newsletter .wpcf7-text{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+
+.wpcf7-response-output{
+    display: none;
+}
+.wpcf7-spinner{
+    bottom: -93px;
+    left: -19px;
+    width: 25px !important;
+}
+.newsletter .wpcf7-spinner{
+    bottom: 27px;
+    left: 52px;
+}
+
+.form textarea,
+.wpcf7-textarea {
+    font-weight: bold;
+    resize: none;
+    padding-top: 10px;
+    height: 124px;
+    font-family: 'Ubuntu';
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.contact-us .center .form_title {
+    width: 215px;
+    display: inline-block;
+    color: #9d0a0e;
+    font-family: 'Gotham-Thin';
+    font-size: 4.28em;
+    letter-spacing: 1.7px;
+}
+.contact-us .center .form_title.mobile{
+    display: none;
+}
+
+.contact-us .center .upper{
+    line-height: 1.08;
+}
+
+.btn,
+.wpcf7-submit {
+    width: 72px;
+    float: left;
+    border: 0;
+    display: block;
+    color: #FFF;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Gotham-Bold';
+    font-size: 0.84em;
+    background-color: #9D0A0E;
+    text-align: start;
+    margin-left: 20px;
+}
+.wpcf7-submit{
+    margin-top: 91px;
+}
+.btn-formulario .wpcf7-submit{
+    margin-top: 0;
+}
+.wpcf7-submit:hover{
+    background-color: #6e0a0d;
+    transform: scale(1.02);
+}
+.wpcf7{
+    width: 100%;
+    position: relative;
+}
+/* .wpcf7-not-valid-tip {
+    font-size: 0.4em !important;
+    line-height: 0px !important;
+    letter-spacing: 0px !important;
+    padding-left: 0px !important;
+} */
+.wpcf7-checkbox{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.subscribe__text-area{
+    width: 100%;
+    font-size: 16px;
+}
+
+.subscribe label{
+    font-size: 18px;
+    color: #9c0a0d;
+    font-family: 'Gotham-Thin';
+    font-weight: bold;
+}
+
+.subscribe span{
+    font-size: 18px;
+    font-family: 'Gothan-Thin';
+    color: black;
+}
+.subscribe .wpcf7-submit{
+    margin-left: 0;
+}
+.subscribe hr{
+    border: 1px solid #D51E23;
+}
+@media screen and (max-width: 1210px){
+    .wpcf7-submit{
+        margin-left: 4px;
+    }
+}
+
+@media screen and (max-width: 1185px){
+    .wpcf7-submit{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .wpcf7-spinner{
+        bottom: -3px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .wpcf7-spinner{
+        bottom: -12px;
+        left: 55px;
+    }
+    .wpcf7-submit{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .wpcf7-not-valid-tip{
+        top: -22px;
+    }
+
+    .form input, .wpcf7-text {
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .center {
+        width: 100%;
+    }
+    
+
+    /* STORY */
+    .story {}
+
+    .story img {
+        order: 1;
+    }
+
+    .story p {
+        padding: inherit;
+    }
+
+
+    .story h1,
+    .story p,
+    .gallery {
+        padding-left: 67px;
+    }
+
+
+    /* GALLERY */
+    .gallery {}
+
+    .gallery .images {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .gallery img {
+        width: 190px;
+    }
+
+    .gallery h2 {
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+
+    /* HOW TO */
+
+    .how-to {
+        grid-template-columns: none;
+    }
+
+    .how-to .participate {
+        width: 80%;
+    }
+
+    .how-to .support {
+        width: 80%;
+        padding: 56px 55px 0px 67px;
+    }
+
+
+    /* DATA */
+    .data {}
+
+    /* SUPPORTERS */
+    .supporters {}
+
+    .supporters .images {
+        width: 90%;
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    /* DONATION */
+    .donation {}
+
+    /* CONTACT US */
+    .contact-us .center .form_title{
+        display: none;
+    }
+    .contact-us .center .form_title.mobile{
+        width: 100% ;
+        font-size: 3.28em;
+        margin-bottom: 15px;
+        text-align: center;
+        display: block;
+    }
+    .form textarea,
+    .wpcf7-textarea {
+        margin-top: 0px;
+        width: 100%;
+    }
+    .wpcf7 .wpcf7-submit{
+        margin-left: 0;
+    }
+    .wpcf7 form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn, .wpcf7-submit{
+        margin: 10px 0 0 20px;
+    }
+    
+    .field{
+        width: 100%;
+    }
+
+    .contact-us .center {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-us .center span {
+        width: 100%;
+        font-size: 1em;
+        display: inherit;
+    }
+
+    .form {
+        padding-top: 0px;
+        padding-left: 0px;
+        margin: 0 auto;
+    }
+
+
+    .contact-us .btn {
+        position: initial;
+    }
+    /* SUBSCRIBE */
+    .subscribe .wpcf7-select{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+
+    /* STORY */
+    .story {
+        grid-template-columns: inherit;
+    }
+
+    .story img {
+        margin: 0 auto;
+        width: 55%;
+    }
+
+    .story h1 {
+        padding-top: 0px;
+        font-size: 2.7em;
+        text-align: center;
+    }
+
+    .story h1,
+    .story p {
+        padding-left: 0px;
+        margin: 20px;
+    }
+    .story p{
+        text-align: justify;
+    }
+
+
+    /* GALLERY */
+    .gallery {
+        margin: 20px;
+    }
+
+
+    .gallery .images {
+        width: auto;
+        display: flex;
+        overflow-x: scroll;
+        gap: 5px;
+    }
+    .gallery .images a{
+        display: contents;
+    }
+
+    .gallery .images img {
+        border: 12px solid #D51D23;
+        margin: 0px;
+    }
+
+    .gallery h2 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .gallery {
+        padding-left: 0px;
+        width: calc(100% - 40px);
+    }
+
+    /* HOW TO */
+    .how-to {}
+
+    .how-to .participate,
+    .how-to .support {
+        width: auto;
+        padding: 20px;
+    }
+    .participate p, .support p{
+        padding: 0;
+        text-align: justify;
+    }
+
+    .how-to .participate h2,
+    .how-to .support h2 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    /* DATA */
+    .data {}
+
+    /* SUPPORTERS */
+    .supporters {}
+
+    /* DONATION */
+    .donation {}
+
+    /* CONTACT US */
+    .contact-us {}
+
+    .contact-us .form input,
+    .contact-us .form textarea {
+        width: 100%;
+    }
+    .contact-us .center .form_title.mobile{
+        font-size: 2em;
+    }
+}
+
