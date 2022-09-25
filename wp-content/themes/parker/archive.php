@@ -157,60 +157,40 @@ $theQuery = new WP_Query([
 ]);
 
 $highlights = array_slice($theQuery->posts, 0, $highllightsCounter);
-$regularPosts = array_slice($theQuery->posts, 3, $regularCounter);
+$anyPosts = array_slice($theQuery->posts, 3, $regularCounter);
 var_dump($theQuery);
 ?>
 
 <section class="background-highlights">
     <div class="titulo center">
         <h2 class="uppercase">
-            <?php 
-                echo get_queried_object()->cat_name;
+            <?php
+            echo get_queried_object()->cat_name;
             ?>
         </h2>
     </div>
     <div class="center">
         <div class="highlights">
-                            <a href="http://localhost/swimmersum-conteudonovo/" title="Um conteúdo&lt;br&gt;novo">
+            <?php
+            foreach ($highlights as $highlight) {
+            ?>
+                <a href=<?php the_permalink($highlight); ?> title="<?php echo $highlight->post_title; ?>">
                     <div class="article">
                         <div class="content">
-                            <img width="1920" height="1273" src="./Blog Archives - IA3_files/estante.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="http://localhost/swimmerswp-content/uploads/2022/08/estante.jpg 1920w, http://localhost/swimmerswp-content/uploads/2022/08/estante-300x199.jpg 300w, http://localhost/swimmerswp-content/uploads/2022/08/estante-1024x679.jpg 1024w, http://localhost/swimmerswp-content/uploads/2022/08/estante-768x509.jpg 768w, http://localhost/swimmerswp-content/uploads/2022/08/estante-1536x1018.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px">                            <div class="title">
-                                <h2 class="upper">Um conteúdo<br>novo
-                            </h2></div>
+                            <?php
+                            echo get_the_post_thumbnail($highlight);  ?>
+                            <div class="title">
+                                <h2 class="upper"><?php echo $highlight->post_title; ?></span>
+                            </div>
                             <div class="excerpt">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam rerum nemo hic ratione maiores aut</span>
+                                <span><?php echo substr(get_the_excerpt($highlight), 0, 100); ?></span>
                             </div>
                         </div>
                         <span class="btn upper">Leia mais</span>
                     </div>
                 </a>
-                            <a href="http://localhost/swimmersaprendiz-na-empresa-2/" title="">
-                    <div class="article">
-                        <div class="content">
-                            <img width="1920" height="1273" src="./Blog Archives - IA3_files/estante.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="http://localhost/swimmerswp-content/uploads/2022/08/estante.jpg 1920w, http://localhost/swimmerswp-content/uploads/2022/08/estante-300x199.jpg 300w, http://localhost/swimmerswp-content/uploads/2022/08/estante-1024x679.jpg 1024w, http://localhost/swimmerswp-content/uploads/2022/08/estante-768x509.jpg 768w, http://localhost/swimmerswp-content/uploads/2022/08/estante-1536x1018.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px">                            <div class="title">
-                                <h2 class="upper">Aprendiz<br> na empresa
-                            </h2></div>
-                            <div class="excerpt">
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </span>
-                            </div>
-                        </div>
-                        <span class="btn upper">Leia mais</span>
-                    </div>
-                </a>
-                            <a href="http://localhost/swimmerstest9/" title="Aprendiz&lt;br&gt; na empresa">
-                    <div class="article">
-                        <div class="content">
-                            <img width="1920" height="1273" src="./Blog Archives - IA3_files/backwoman.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="http://localhost/swimmerswp-content/uploads/2022/07/backwoman.jpg 1920w, http://localhost/swimmerswp-content/uploads/2022/07/backwoman-300x199.jpg 300w, http://localhost/swimmerswp-content/uploads/2022/07/backwoman-1024x679.jpg 1024w, http://localhost/swimmerswp-content/uploads/2022/07/backwoman-768x509.jpg 768w, http://localhost/swimmerswp-content/uploads/2022/07/backwoman-1536x1018.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px">                            <div class="title">
-                                <h2 class="upper">Aprendiz<br> na empresa
-                            </h2></div>
-                            <div class="excerpt">
-                                <span>Em maio de 2008, após a realização de um diagnóstico social no município de Pindamonhangaba, na</span>
-                            </div>
-                        </div>
-                        <span class="btn upper">Leia mais</span>
-                    </div>
-                </a>
-                    </div>
+            <?php } ?>
+        </div>
     </div>
 </section>
 
@@ -220,6 +200,7 @@ var_dump($theQuery);
             <div class="posts">
                 <!-- inner-posts -->
                 <div class="inner-posts">
+                    
                                             <a href="http://localhost/swimmerstest8/" title="Aprendiz&lt;br&gt; na empresa">
                             <div class="post">
                                 <div class="inner-post">
